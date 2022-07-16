@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "build": "node crawl && webpack"
+    "build": "node crawl && webpack",
+    "postpack": "node crawl"
   },
   "keywords": [],
   "author": "",

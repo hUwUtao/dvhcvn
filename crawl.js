@@ -16,7 +16,7 @@ function prepDir(name) {
 
 process.scache = {};
 function hashName(name) {
-  if (!process.scache[name]) process.scache[name] = shake(name, 2);
+  if (!process.scache[name]) process.scache[name] = shake(name, 4);
   return process.scache[name];
 }
 
