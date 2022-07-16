@@ -1,6 +1,6 @@
 {
   "name": "dvhcvn-ts",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "",
   "main": "index.ts",
   "scripts": {
@@ -8,9 +8,8 @@
     "postpack": "node crawl"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "private": true,
+  "author": "hUwUtao",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.0.4",
     "ts-loader": "^9.3.1",
@@ -21,5 +20,13 @@
   "dependencies": {
     "axios": "^0.27.2",
     "xml2json": "^0.12.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hUwUtao/dvhcvn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hUwUtao/dvhcvn/issues"
+  },
+  "homepage": "https://github.com/hUwUtao/dvhcvn#readme"
 }
