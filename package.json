@@ -1,6 +1,6 @@
 {
-  "name": "dvhcvn",
-  "version": "0.9.0",
+  "name": "dvhcvn-ts",
+  "version": "0.8.0",
   "description": "",
   "main": "index.ts",
   "scripts": {
@@ -10,6 +10,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "private": true,
   "devDependencies": {
     "@types/node": "^18.0.4",
     "ts-loader": "^9.3.1",
